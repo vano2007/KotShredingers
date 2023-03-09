@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     if (x < (X_CAT + DELTA_CAT) && x > (X_CAT - DELTA_CAT) && y < (Y_CAT + DELTA_CAT) && y > (Y_CAT - DELTA_CAT)) { // если пользователь коснулся места нахождения кота
                         // размещаем тост (контекст, сообщение, длительность сообщения)
                         Toast toast = Toast.makeText(getApplicationContext(), R.string.successful_search, Toast.LENGTH_SHORT); // инициализация
-                        toast.setGravity(Gravity.LEFT, (int) X_CAT,(int) Y_CAT); // задание позиции на экране (положение, смещение по оси Х, смещение по оси Y)
+                        toast.setGravity(Gravity.LEFT, (int) X_CAT-50,(int) Y_CAT-100); // задание позиции на экране (положение, смещение по оси Х, смещение по оси Y)
                         // помещение тоста в контейнер
                         LinearLayout toastContainer = (LinearLayout) toast.getView();
                         // добавление в тост картинки
