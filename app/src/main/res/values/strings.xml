@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotShredingers</string>
+    <string name="successful_search">Вы нашли кота</string>
+</resources>
